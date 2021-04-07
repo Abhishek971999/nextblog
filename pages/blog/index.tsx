@@ -5,6 +5,9 @@ import { GetStaticProps, InferGetStaticPropsType } from "next";
 
 const BlogContainer = styled.div`
   padding: 10px 50px;
+  @media (max-width: 800px) {
+    padding: 5px;
+  }
   div {
     background: #dbdbdb;
     margin: 20px 0;
